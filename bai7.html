@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai7:</title>
+</head>
+<body>
+<script>
+    let a = Number(prompt("Nhap so a: "));
+    let b = Number(prompt("Nhap so b: "));
+    let c = Number(prompt("Nhap so c: "));
+    let d = (b*b) - (4*(a*c));
+    if (d<0){
+        alert("Phuong trinh vo nghiem");
+    } else if (d ==0){
+        let f= (-b)/ (2*a);
+        alert("Phuong trinh co nghiem kep la: "+f);
+    } else if (d>0){
+        let g = ((-b) + (d/d)) / (2*a);
+        let h = ((-b) - (d/d)) / (2*a);
+        alert("Chuong trinh co 2 nghiem phan biet: "+g + h);
+    } else {
+
+    }
+
+</script>
+
+</body>
+</html>
